@@ -8,7 +8,6 @@
 //Если пользователь ввел не шестизначное число тре-
 //буется вывести сообщение об ошибке.
 
-
 int k;
 do
 {
@@ -34,7 +33,7 @@ do
         int num = Convert.ToInt32(numS);
         Console.WriteLine(num);
     }
-    Console.WriteLine("Int key - 1 - to continue, 0 - to exit");
+    Console.WriteLine("Input key - 1 - to continue, 0 - to exit");
     k = int.Parse(Console.ReadLine());
 } while (k == 1);
 return;
